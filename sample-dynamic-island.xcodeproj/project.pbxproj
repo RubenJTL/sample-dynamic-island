@@ -11,6 +11,8 @@
 		B103C468297458540065D4A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103C467297458540065D4A3 /* ContentView.swift */; };
 		B103C46A297458550065D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B103C469297458550065D4A3 /* Assets.xcassets */; };
 		B103C46D297458550065D4A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B103C46C297458550065D4A3 /* Preview Assets.xcassets */; };
+		B15DD00D29746210003131A3 /* TimeTrackingAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15DD00C29746210003131A3 /* TimeTrackingAttributes.swift */; };
+		B15DD01029746811003131A3 /* TimeTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15DD00F29746811003131A3 /* TimeTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B103C467297458540065D4A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B103C469297458550065D4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B103C46C297458550065D4A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15DD00C29746210003131A3 /* TimeTrackingAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingAttributes.swift; sourceTree = "<group>"; };
+		B15DD00F29746811003131A3 /* TimeTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		B103C464297458540065D4A3 /* sample-dynamic-island */ = {
 			isa = PBXGroup;
 			children = (
+				B103C46B297458550065D4A3 /* Preview Content */,
 				B103C465297458540065D4A3 /* sample_dynamic_islandApp.swift */,
 				B103C467297458540065D4A3 /* ContentView.swift */,
-				B103C469297458550065D4A3 /* Assets.xcassets */,
-				B103C46B297458550065D4A3 /* Preview Content */,
+				B15DD00F29746811003131A3 /* TimeTrackingView.swift */,
+				B15DD00C29746210003131A3 /* TimeTrackingAttributes.swift */,
+				B15DD00E29746220003131A3 /* Resources */,
 			);
 			path = "sample-dynamic-island";
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				B103C46C297458550065D4A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B15DD00E29746220003131A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B103C469297458550065D4A3 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B103C468297458540065D4A3 /* ContentView.swift in Sources */,
+				B15DD00D29746210003131A3 /* TimeTrackingAttributes.swift in Sources */,
+				B15DD01029746811003131A3 /* TimeTrackingView.swift in Sources */,
 				B103C466297458540065D4A3 /* sample_dynamic_islandApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
